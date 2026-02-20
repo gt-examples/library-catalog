@@ -1,0 +1,198 @@
+{
+  "0c3cbc1a510f2c55": "Un catálogo de una biblioteca pública que muestra la internacionalización con General Translation.",
+  "0f4e70f20678f14c": {
+    "c": [
+      "Vence: ",
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      }
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "236e9b43011c2a4b": "Catálogo de la biblioteca",
+  "2955cffb6d0c1775": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "Total de libros",
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 5,
+              "k": "_gt_n_5",
+              "v": "n"
+            },
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Disponibles",
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_n_9",
+              "v": "n"
+            },
+            "i": 8,
+            "t": "p"
+          }
+        ],
+        "i": 6,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Prestados",
+            "i": 11,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 13,
+              "k": "_gt_n_13",
+              "v": "n"
+            },
+            "i": 12,
+            "t": "p"
+          }
+        ],
+        "i": 10,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Géneros",
+            "i": 15,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 17,
+              "k": "_gt_n_17",
+              "v": "n"
+            },
+            "i": 16,
+            "t": "p"
+          }
+        ],
+        "i": 14,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "3ff30315b2d7974a": "Catálogo de la biblioteca | General Translation",
+  "44270e556f59ce0c": {
+    "c": [
+      {
+        "i": 2,
+        "t": "span"
+      },
+      "Disponible"
+    ],
+    "i": 1,
+    "t": "span"
+  },
+  "5de862204dfbf7fd": {
+    "c": [
+      {
+        "c": "Catálogo de la Biblioteca Pública",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Explora nuestra colección de libros. Consulta la disponibilidad, las fechas de devolución y encuentra tu próxima lectura.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "73b3e536e3a32f98": {
+    "c": [
+      {
+        "c": "Páginas",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": {
+          "i": 4,
+          "k": "_gt_n_4",
+          "v": "n"
+        },
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "9fb01bf5a6f01a80": {
+    "c": [
+      {
+        "c": "Copias",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "i": 4,
+            "k": "_gt_value_4",
+            "v": "v"
+          },
+          " / ",
+          {
+            "i": 5,
+            "k": "_gt_value_5",
+            "v": "v"
+          }
+        ],
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "c4e03aefeb7c0276": {
+    "c": [
+      {
+        "i": 2,
+        "t": "span"
+      },
+      "Retirado"
+    ],
+    "i": 1,
+    "t": "span"
+  },
+  "c9f33e3ad97ae7f0": {
+    "c": {
+      "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. Los datos de los libros son ficticios.",
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  }
+}
