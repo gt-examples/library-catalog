@@ -1,139 +1,13 @@
-import { T, Var, Num } from "gt-next";
+import { T, Num } from "gt-next";
 import { getGT } from "gt-next/server";
 import { LocaleSelector } from "gt-next";
-
-type Book = {
-  title: string;
-  author: string;
-  genre: string;
-  pages: number;
-  available: boolean;
-  dueDate: string | null;
-  copies: number;
-  totalCopies: number;
-};
-
-const books: Book[] = [
-  {
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
-    genre: "fiction",
-    pages: 180,
-    available: true,
-    dueDate: null,
-    copies: 3,
-    totalCopies: 5,
-  },
-  {
-    title: "A Brief History of Time",
-    author: "Stephen Hawking",
-    genre: "science",
-    pages: 256,
-    available: false,
-    dueDate: "2026-03-15",
-    copies: 0,
-    totalCopies: 2,
-  },
-  {
-    title: "To Kill a Mockingbird",
-    author: "Harper Lee",
-    genre: "fiction",
-    pages: 281,
-    available: true,
-    dueDate: null,
-    copies: 1,
-    totalCopies: 4,
-  },
-  {
-    title: "Sapiens",
-    author: "Yuval Noah Harari",
-    genre: "history",
-    pages: 443,
-    available: false,
-    dueDate: "2026-04-01",
-    copies: 0,
-    totalCopies: 3,
-  },
-  {
-    title: "The Art of War",
-    author: "Sun Tzu",
-    genre: "philosophy",
-    pages: 68,
-    available: true,
-    dueDate: null,
-    copies: 2,
-    totalCopies: 2,
-  },
-  {
-    title: "Cosmos",
-    author: "Carl Sagan",
-    genre: "science",
-    pages: 396,
-    available: true,
-    dueDate: null,
-    copies: 4,
-    totalCopies: 4,
-  },
-];
+import { books, genres } from "@/data/books";
+import GenreFilter from "@/components/GenreFilter";
 
 const totalBooks = books.length;
 const availableCount = books.filter((b) => b.available).length;
 const checkedOutCount = books.filter((b) => !b.available).length;
 const genreCount = new Set(books.map((b) => b.genre)).size;
-
-function AvailableBadge() {
-  return (
-    <T>
-      <span className="inline-flex items-center gap-1.5 text-emerald-400 text-xs font-medium bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded">
-        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-        Available
-      </span>
-    </T>
-  );
-}
-
-function CheckedOutBadge({ dueDate }: { dueDate: string | null }) {
-  return (
-    <div>
-      <T>
-        <span className="inline-flex items-center gap-1.5 text-amber-400 text-xs font-medium bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded mb-1">
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-          Checked Out
-        </span>
-      </T>
-      {dueDate && (
-        <T>
-          <p className="text-neutral-500 text-xs">
-            Due: <Var>{dueDate}</Var>
-          </p>
-        </T>
-      )}
-    </div>
-  );
-}
-
-const genreColors: Record<string, string> = {
-  fiction: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-  science: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-  history: "bg-amber-500/10 text-amber-400 border-amber-500/20",
-  philosophy: "bg-purple-500/10 text-purple-400 border-purple-500/20",
-};
-
-function GenreLabel({
-  genre,
-  label,
-}: {
-  genre: string;
-  label: string;
-}) {
-  return (
-    <span
-      className={`text-xs font-medium px-2 py-0.5 rounded border ${genreColors[genre] || "bg-neutral-800 text-neutral-400 border-neutral-700"}`}
-    >
-      {label}
-    </span>
-  );
-}
 
 export default async function Home() {
   const gt = await getGT();
@@ -237,51 +111,13 @@ export default async function Home() {
           </T>
         </div>
 
-        <div className="space-y-3">
-          {books.map((book, i) => (
-            <div
-              key={i}
-              className="bg-neutral-900 border border-neutral-800 rounded-lg p-5 hover:border-neutral-700 transition-colors"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-3 mb-1.5">
-                    <h3 className="text-base font-semibold text-neutral-100 truncate">
-                      {book.title}
-                    </h3>
-                    <GenreLabel genre={book.genre} label={genreLabels[book.genre] || book.genre} />
-                  </div>
-                  <p className="text-sm text-neutral-500">{book.author}</p>
-                </div>
-                <div className="flex items-center gap-6 text-sm shrink-0">
-                  <T>
-                    <div className="text-right">
-                      <p className="text-neutral-500 text-xs mb-0.5">Pages</p>
-                      <p className="text-neutral-300 font-medium">
-                        <Num>{book.pages}</Num>
-                      </p>
-                    </div>
-                  </T>
-                  <T>
-                    <div className="text-right">
-                      <p className="text-neutral-500 text-xs mb-0.5">Copies</p>
-                      <p className="text-neutral-300 font-medium">
-                        <Var>{book.copies}</Var> / <Var>{book.totalCopies}</Var>
-                      </p>
-                    </div>
-                  </T>
-                  <div className="text-right min-w-[90px]">
-                    {book.available ? (
-                      <AvailableBadge />
-                    ) : (
-                      <CheckedOutBadge dueDate={book.dueDate} />
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <GenreFilter
+          books={books}
+          genres={genres}
+          genreLabels={genreLabels}
+          allLabel={gt("All")}
+          searchPlaceholder={gt("Search by title or author...")}
+        />
 
         <T>
           <div className="mt-12 pt-8 border-t border-neutral-800">

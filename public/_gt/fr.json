@@ -1,5 +1,7 @@
 {
-  "0c3cbc1a510f2c55": "Catalogue d’une bibliothèque publique démontrant les fonctionnalités d’internationalisation de General Translation.",
+  "045741aa62df51f8": "Tous",
+  "06d90a6981b1ee3e": "500 av. J.-C.",
+  "0c3cbc1a510f2c55": "Un catalogue de bibliothèque publique illustrant l’internationalisation avec General Translation.",
   "0f4e70f20678f14c": {
     "c": [
       "Échéance : ",
@@ -11,6 +13,29 @@
     ],
     "i": 1,
     "t": "p"
+  },
+  "1d4283bc1c52b590": "Science, rayon B, étagère 7",
+  "21225f16896e7ec1": "Philosophie, rangée D, étagère 1",
+  "22304403d218e097": {
+    "c": [
+      {
+        "c": "Rejoindre la liste d'attente",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Tous les exemplaires sont actuellement empruntés. Rejoignez la liste d'attente pour être notifié lorsqu'un exemplaire devient disponible.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": "Rejoindre la liste d'attente",
+        "i": 4,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
   },
   "236e9b43011c2a4b": "Catalogue de bibliothèque",
   "2955cffb6d0c1775": {
@@ -100,6 +125,7 @@
     "t": "div"
   },
   "3ff30315b2d7974a": "Catalogue de bibliothèque | General Translation",
+  "43b048be038d64df": "Fiction, rayon A, étagère 3",
   "44270e556f59ce0c": {
     "c": [
       {
@@ -110,6 +136,158 @@
     ],
     "i": 1,
     "t": "span"
+  },
+  "446843117585d908": "Cosmos retrace les origines du savoir et de la méthode scientifique, mêle science et philosophie, et n’hésite pas à spéculer sur l’avenir de la science. Le livre couvre un large éventail de sujets, dont l’origine de la vie, le cerveau humain, les hiéroglyphes égyptiens, les missions spatiales, la mort du Soleil, l’évolution des galaxies, et plus encore.",
+  "52b78777870ce964": {
+    "c": [
+      {
+        "c": "Informations sur la branche",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "Emplacement",
+                "i": 5,
+                "t": "p"
+              },
+              {
+                "c": {
+                  "i": 7,
+                  "k": "_gt_value_7",
+                  "v": "v"
+                },
+                "i": 6,
+                "t": "p"
+              }
+            ],
+            "i": 4,
+            "t": "div"
+          },
+          {
+            "c": [
+              {
+                "c": "Rayon",
+                "i": 9,
+                "t": "p"
+              },
+              {
+                "c": {
+                  "i": 11,
+                  "k": "_gt_value_11",
+                  "v": "v"
+                },
+                "i": 10,
+                "t": "p"
+              }
+            ],
+            "i": 8,
+            "t": "div"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "53a14452e3666425": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "Pages",
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 5,
+              "k": "_gt_n_5",
+              "v": "n"
+            },
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Publié",
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_value_9",
+              "v": "v"
+            },
+            "i": 8,
+            "t": "p"
+          }
+        ],
+        "i": 6,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Exemplaires",
+            "i": 11,
+            "t": "p"
+          },
+          {
+            "c": [
+              {
+                "i": 13,
+                "k": "_gt_value_13",
+                "v": "v"
+              },
+              " / ",
+              {
+                "i": 14,
+                "k": "_gt_value_14",
+                "v": "v"
+              }
+            ],
+            "i": 12,
+            "t": "p"
+          }
+        ],
+        "i": 10,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "ISBN",
+            "i": 16,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 18,
+              "k": "_gt_value_18",
+              "v": "v"
+            },
+            "i": 17,
+            "t": "p"
+          }
+        ],
+        "i": 15,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
   },
   "5de862204dfbf7fd": {
     "c": [
@@ -148,6 +326,12 @@
     "i": 1,
     "t": "div"
   },
+  "74f611d4831349f8": "Dans cet ouvrage audacieux et provocateur, Yuval Noah Harari explore comment la biologie et l’histoire nous ont façonnés et ont approfondi notre compréhension de la condition humaine. De l’examen du rôle évolutif de l’espèce humaine dans l’écosystème à la mise en perspective de l’essor des empires, Sapiens allie histoire et science.",
+  "7a313472557b42f1": "Sciences, rangée B, étagère 9",
+  "8636da5493ca934c": "Stephen Hawking tente d’expliquer à un public non spécialiste une série de sujets de cosmologie, notamment le Big Bang, les trous noirs et les cônes de lumière. Le livre explore des questions fondamentales sur l’univers : d’où il vient, où il va et comment il pourrait finir.",
+  "894256ee0ba9cbb9": "Branche Main Street",
+  "93430a6ba9324c8d": "Portrait de l’ère du jazz dans toute sa décadence et tous ses excès, Gatsby a su saisir l’esprit de la génération de son auteur et s’est assuré une place durable dans la mythologie américaine. Milliardaire parti de rien et s’étant façonné lui‑même, Jay Gatsby incarne certains des idéaux de Fitzgerald en matière de romance, d’opulence et de jeunesse. Ici, il poursuit un rêve lointain, symbolisé par une simple lumière verte au‑delà de l’eau.",
+  "9a7b3abdfab2229b": "Branche Hillside",
   "9fb01bf5a6f01a80": {
     "c": [
       {
@@ -178,6 +362,17 @@
   },
   "a2f0aed8b5e1967f": "Histoire",
   "aaa4afe291476763": "Philosophie",
+  "ab763a7401ca1254": {
+    "c": {
+      "c": "Aucun livre trouvé correspondant à votre recherche.",
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "b4ea2263cc3a4e15": "L’inoubliable roman sur une enfance dans une petite ville du Sud des États-Unis assoupie et sur la crise de conscience qui la bouleverse. À travers les yeux encore jeunes de Scout et Jem Finch, Harper Lee explore avec un humour débordant l’irrationalité des attitudes des adultes envers la race et la classe sociale dans le Deep South des années 1930.",
+  "bfe4e2be8a9cbf6a": "Histoire, rangée C, étagère 2",
   "c02008d31c0cfc64": "Sciences",
   "c4e03aefeb7c0276": {
     "c": [
@@ -190,12 +385,43 @@
     "i": 1,
     "t": "span"
   },
+  "c62152e42f3e5473": "Rédigé au Ve siècle av. J.-C., L’Art de la guerre est un traité militaire qui a largement dépassé son objectif initial. Ses leçons sur la stratégie, la tactique et le leadership ont été adoptées par des dirigeants d’entreprise, des responsables politiques et toute personne confrontée à des enjeux de concurrence. Sun Tzu y expose des principes intemporels sur le conflit et la négociation.",
+  "c6334dcace5af107": "Fiction, rangée A, étagère 5",
   "c9f33e3ad97ae7f0": {
     "c": {
       "c": "Voici un exemple d'application construite avec General Translation pour illustrer l'internationalisation. Les données sur les livres sont fictives.",
       "i": 2,
       "t": "p"
     },
+    "i": 1,
+    "t": "div"
+  },
+  "d91f61cb17701943": "Branche Riverside",
+  "db515b0f17473012": "Rechercher un titre ou un auteur…",
+  "e68dbf62d16409c4": "Retour au catalogue",
+  "f756db349757c7e0": {
+    "c": "Titres similaires",
+    "i": 1,
+    "t": "h2"
+  },
+  "fc29bc0041e50b55": {
+    "c": [
+      {
+        "c": "Réserver un exemplaire",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Ce livre est actuellement disponible. Réservez un exemplaire à récupérer dans la bibliothèque de votre choix.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": "Réserver ce livre",
+        "i": 4,
+        "t": "button"
+      }
+    ],
     "i": 1,
     "t": "div"
   }

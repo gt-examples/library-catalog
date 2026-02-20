@@ -1,5 +1,7 @@
 {
-  "0c3cbc1a510f2c55": "Un catálogo de una biblioteca pública que muestra internacionalización con General Translation.",
+  "045741aa62df51f8": "Todos",
+  "06d90a6981b1ee3e": "500 a. C.",
+  "0c3cbc1a510f2c55": "Catálogo de una biblioteca pública que muestra la internacionalización con General Translation.",
   "0f4e70f20678f14c": {
     "c": [
       "Vence: ",
@@ -12,7 +14,30 @@
     "i": 1,
     "t": "p"
   },
-  "236e9b43011c2a4b": "Catálogo de biblioteca",
+  "1d4283bc1c52b590": "Ciencia, pasillo B, estantería 7",
+  "21225f16896e7ec1": "Filosofía, pasillo D, estantería 1",
+  "22304403d218e097": {
+    "c": [
+      {
+        "c": "Unirse a la lista de espera",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Todos los ejemplares están actualmente prestados. Únete a la lista de espera para recibir una notificación cuando haya uno disponible.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": "Unirse a la lista de espera",
+        "i": 4,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "236e9b43011c2a4b": "Catálogo de la biblioteca",
   "2955cffb6d0c1775": {
     "c": [
       {
@@ -99,7 +124,8 @@
     "i": 1,
     "t": "div"
   },
-  "3ff30315b2d7974a": "Catálogo de biblioteca | General Translation",
+  "3ff30315b2d7974a": "Catálogo de la biblioteca | General Translation",
+  "43b048be038d64df": "Ficción, pasillo A, estantería 3",
   "44270e556f59ce0c": {
     "c": [
       {
@@ -110,6 +136,158 @@
     ],
     "i": 1,
     "t": "span"
+  },
+  "446843117585d908": "Cosmos rastrea los orígenes del conocimiento y del método científico, combina ciencia y filosofía y especula sobre el futuro de la ciencia. El libro aborda una amplia gama de temas, entre ellos el origen de la vida, el cerebro humano, los jeroglíficos egipcios, las misiones espaciales, la muerte del Sol, la evolución de las galaxias y más.",
+  "52b78777870ce964": {
+    "c": [
+      {
+        "c": "Información de Rama",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "Ubicación",
+                "i": 5,
+                "t": "p"
+              },
+              {
+                "c": {
+                  "i": 7,
+                  "k": "_gt_value_7",
+                  "v": "v"
+                },
+                "i": 6,
+                "t": "p"
+              }
+            ],
+            "i": 4,
+            "t": "div"
+          },
+          {
+            "c": [
+              {
+                "c": "Estante",
+                "i": 9,
+                "t": "p"
+              },
+              {
+                "c": {
+                  "i": 11,
+                  "k": "_gt_value_11",
+                  "v": "v"
+                },
+                "i": 10,
+                "t": "p"
+              }
+            ],
+            "i": 8,
+            "t": "div"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "53a14452e3666425": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "Páginas",
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 5,
+              "k": "_gt_n_5",
+              "v": "n"
+            },
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Publicado",
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_value_9",
+              "v": "v"
+            },
+            "i": 8,
+            "t": "p"
+          }
+        ],
+        "i": 6,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Copias",
+            "i": 11,
+            "t": "p"
+          },
+          {
+            "c": [
+              {
+                "i": 13,
+                "k": "_gt_value_13",
+                "v": "v"
+              },
+              " / ",
+              {
+                "i": 14,
+                "k": "_gt_value_14",
+                "v": "v"
+              }
+            ],
+            "i": 12,
+            "t": "p"
+          }
+        ],
+        "i": 10,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "ISBN",
+            "i": 16,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 18,
+              "k": "_gt_value_18",
+              "v": "v"
+            },
+            "i": 17,
+            "t": "p"
+          }
+        ],
+        "i": 15,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
   },
   "5de862204dfbf7fd": {
     "c": [
@@ -148,6 +326,12 @@
     "i": 1,
     "t": "div"
   },
+  "74f611d4831349f8": "En este libro audaz y provocador, Yuval Noah Harari explora las formas en que la biología y la historia nos han definido y han ampliado nuestra comprensión de lo que significa ser humanos. Desde el análisis del papel de los seres humanos en la evolución dentro del ecosistema hasta el relato del auge de los imperios, Sapiens integra historia y ciencia.",
+  "7a313472557b42f1": "Ciencia, pasillo B, estantería 9",
+  "8636da5493ca934c": "Stephen Hawking explica una variedad de temas de cosmología, incluidos el Big Bang, los agujeros negros y los conos de luz, a lectores no especializados. El libro explora preguntas fundamentales sobre el universo: de dónde viene, hacia dónde se dirige y cómo terminará.",
+  "894256ee0ba9cbb9": "Sucursal de Main Street",
+  "93430a6ba9324c8d": "Un retrato de la era del jazz en toda su decadencia y exceso, Gatsby captó el espíritu de la generación de su autor y se ganó un lugar permanente en la mitología estadounidense. Jay Gatsby, un millonario hecho a sí mismo y de identidad inventada, encarna algunos de los ideales de Fitzgerald sobre el amor romántico, la riqueza y la juventud. Aquí persigue un sueño lejano, simbolizado por una sola luz verde al otro lado del agua.",
+  "9a7b3abdfab2229b": "Sucursal Hillside",
   "9fb01bf5a6f01a80": {
     "c": [
       {
@@ -178,6 +362,17 @@
   },
   "a2f0aed8b5e1967f": "Historia",
   "aaa4afe291476763": "Filosofía",
+  "ab763a7401ca1254": {
+    "c": {
+      "c": "No se encontraron libros que coincidan con tu búsqueda.",
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "b4ea2263cc3a4e15": "La inolvidable novela sobre la infancia en un apacible pueblo sureño y la crisis de conciencia que lo sacude. A través de la mirada de los jóvenes Scout y Jem Finch, Harper Lee explora con desbordante humor la irracionalidad de las actitudes adultas hacia la raza y la clase en el profundo Sur estadounidense de los años treinta.",
+  "bfe4e2be8a9cbf6a": "Historia, pasillo C, estantería 2",
   "c02008d31c0cfc64": "Ciencia",
   "c4e03aefeb7c0276": {
     "c": [
@@ -190,12 +385,43 @@
     "i": 1,
     "t": "span"
   },
+  "c62152e42f3e5473": "Escrito en el siglo V a. C., «El arte de la guerra» es un tratado militar que hace tiempo trascendió su propósito original. Sus lecciones sobre estrategia, tácticas y liderazgo han sido adoptadas por líderes empresariales, políticos y por cualquiera que se enfrente a desafíos competitivos. Sun Tzu ofrece principios atemporales sobre el conflicto y la negociación.",
+  "c6334dcace5af107": "Ficción, pasillo A, estantería 5",
   "c9f33e3ad97ae7f0": {
     "c": {
       "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. Los datos de los libros son ficticios.",
       "i": 2,
       "t": "p"
     },
+    "i": 1,
+    "t": "div"
+  },
+  "d91f61cb17701943": "Sucursal Riverside",
+  "db515b0f17473012": "Buscar por título o autor...",
+  "e68dbf62d16409c4": "Volver al catálogo",
+  "f756db349757c7e0": {
+    "c": "Títulos similares",
+    "i": 1,
+    "t": "h2"
+  },
+  "fc29bc0041e50b55": {
+    "c": [
+      {
+        "c": "Realizar una reserva",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Este libro está disponible actualmente. Reserva un ejemplar para recoger en tu rama preferida.",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": "Reservar este libro",
+        "i": 4,
+        "t": "button"
+      }
+    ],
     "i": 1,
     "t": "div"
   }
