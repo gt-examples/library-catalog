@@ -1,5 +1,5 @@
 {
-  "0c3cbc1a510f2c55": "Catalogue d’une bibliothèque publique démontrant l’internationalisation avec General Translation.",
+  "0c3cbc1a510f2c55": "Catalogue d’une bibliothèque publique démontrant les fonctionnalités d’internationalisation de General Translation.",
   "0f4e70f20678f14c": {
     "c": [
       "Échéance : ",
@@ -127,6 +127,7 @@
     "i": 1,
     "t": "div"
   },
+  "617bc9ceceaa905f": "Fiction",
   "73b3e536e3a32f98": {
     "c": [
       {
@@ -175,6 +176,9 @@
     "i": 1,
     "t": "div"
   },
+  "a2f0aed8b5e1967f": "Histoire",
+  "aaa4afe291476763": "Philosophie",
+  "c02008d31c0cfc64": "Sciences",
   "c4e03aefeb7c0276": {
     "c": [
       {

@@ -112,36 +112,38 @@ function CheckedOutBadge({ dueDate }: { dueDate: string | null }) {
   );
 }
 
+const genreColors: Record<string, string> = {
+  fiction: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+  science: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+  history: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+  philosophy: "bg-purple-500/10 text-purple-400 border-purple-500/20",
+};
+
 function GenreLabel({
   genre,
-  gt,
+  label,
 }: {
   genre: string;
-  gt: (s: string) => string;
+  label: string;
 }) {
-  const genreLabels: Record<string, string> = {
-    fiction: gt("Fiction"),
-    science: gt("Science"),
-    history: gt("History"),
-    philosophy: gt("Philosophy"),
-  };
-  const genreColors: Record<string, string> = {
-    fiction: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-    science: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-    history: "bg-amber-500/10 text-amber-400 border-amber-500/20",
-    philosophy: "bg-purple-500/10 text-purple-400 border-purple-500/20",
-  };
   return (
     <span
       className={`text-xs font-medium px-2 py-0.5 rounded border ${genreColors[genre] || "bg-neutral-800 text-neutral-400 border-neutral-700"}`}
     >
-      {genreLabels[genre] || genre}
+      {label}
     </span>
   );
 }
 
 export default async function Home() {
   const gt = await getGT();
+
+  const genreLabels: Record<string, string> = {
+    fiction: gt("Fiction"),
+    science: gt("Science"),
+    history: gt("History"),
+    philosophy: gt("Philosophy"),
+  };
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
@@ -247,7 +249,7 @@ export default async function Home() {
                     <h3 className="text-base font-semibold text-neutral-100 truncate">
                       {book.title}
                     </h3>
-                    <GenreLabel genre={book.genre} gt={gt} />
+                    <GenreLabel genre={book.genre} label={genreLabels[book.genre] || book.genre} />
                   </div>
                   <p className="text-sm text-neutral-500">{book.author}</p>
                 </div>

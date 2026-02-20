@@ -1,5 +1,5 @@
 {
-  "0c3cbc1a510f2c55": "Un catálogo de una biblioteca pública que muestra la internacionalización con General Translation.",
+  "0c3cbc1a510f2c55": "Un catálogo de una biblioteca pública que muestra internacionalización con General Translation.",
   "0f4e70f20678f14c": {
     "c": [
       "Vence: ",
@@ -12,7 +12,7 @@
     "i": 1,
     "t": "p"
   },
-  "236e9b43011c2a4b": "Catálogo de la biblioteca",
+  "236e9b43011c2a4b": "Catálogo de biblioteca",
   "2955cffb6d0c1775": {
     "c": [
       {
@@ -99,7 +99,7 @@
     "i": 1,
     "t": "div"
   },
-  "3ff30315b2d7974a": "Catálogo de la biblioteca | General Translation",
+  "3ff30315b2d7974a": "Catálogo de biblioteca | General Translation",
   "44270e556f59ce0c": {
     "c": [
       {
@@ -127,6 +127,7 @@
     "i": 1,
     "t": "div"
   },
+  "617bc9ceceaa905f": "Ficción",
   "73b3e536e3a32f98": {
     "c": [
       {
@@ -175,6 +176,9 @@
     "i": 1,
     "t": "div"
   },
+  "a2f0aed8b5e1967f": "Historia",
+  "aaa4afe291476763": "Filosofía",
+  "c02008d31c0cfc64": "Ciencia",
   "c4e03aefeb7c0276": {
     "c": [
       {
